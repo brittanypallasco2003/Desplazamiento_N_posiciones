@@ -12,6 +12,8 @@ public class App {
             enteros[i] = entrada.nextInt();
         }
 
+        entrada.close();
+
         // Rescatar números
         int numeroIndicePartida = 10 - numeroDesplazamientos;
         int numerosRescatados[] = new int[numeroDesplazamientos];
